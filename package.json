@@ -1,0 +1,32 @@
+{
+  "name": "serializer",
+  "version": "1.0.0",
+  "description": "",
+  "license": "UNLICENSED",
+  "author": "Athom B.V.",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint src/",
+    "test": "jest",
+    "typecheck": "tsc"
+  },
+  "eslintConfig": {
+    "extends": "athom"
+  },
+  "prettier": {
+    "editorconfig": true,
+    "singleQuote": true
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^25.2.3",
+    "@types/node": "^14.0.9",
+    "eslint": "^7.1.0",
+    "eslint-config-athom": "^2.1.0",
+    "jest": "^26.0.1",
+    "typescript": "^3.9.3"
+  },
+  "engines": {
+    "node": ">=12"
+  }
+}
